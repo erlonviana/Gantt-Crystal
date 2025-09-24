@@ -5,7 +5,7 @@ gantt
   title Exemplo de Gráfico de Gantt
   dateFormat YYYY-MM-DD
   section 1° Bimestre
-  1ª Semana⌛ Entrega 1 :active, a1, 2025-02-02, 21d
+  1ª Semana⌛ Entrega 1 :crit, a1, 2025-02-02, 21d
   2ª Semana⌛ Entrega 2 :active, a2, after a1, 21d
   3ª Semana⌛ Entrega 3 :active, a3, after a2, 15d
   4ª Semana⌛ Entrega 4 :active, a4, after a3, 15d
