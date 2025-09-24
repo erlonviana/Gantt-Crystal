@@ -6,7 +6,7 @@
 graph TD
   subgraph Matriz
     D8["Entrega 3"]:::branco --> C20["Entrega 5"]:::amarelo --> D80["Entrega 2"]:::laranja --> D100a["Entrega 1"]:::vermelho
-    D80["Entrega 4"]:::laranja --> D100b["Entrega 6"]:::vermelho
+    D10["Entrega 4"]:::laranja --> D100b["Entrega 6"]:::vermelho
 
   end
 
