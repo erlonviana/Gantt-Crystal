@@ -1,12 +1,12 @@
 # Gantt-Crystal
 
+
+
 ```mermaid
 graph TD
   subgraph Matriz
-    D8["1 - D8"]:::branco --> C20["6 - C20"]:::amarelo --> D80["5 - D80"]:::laranja --> D100a["2 - D100"]:::vermelho
-    C8["4 - C8"]:::branco ----> V100["3 - V100"]:::vermelho
-    D100b["7 - D100"]:::vermelho
-    V100b["8 - V100"]:::vermelho
+    D8["Entrega 3"]:::branco --> C20["Entrega 5"]:::amarelo --> D80["Entrega 2"]:::laranja --> D100a["Entrega 1"]:::vermelho
+    D80["Entrega 4"]:::laranja --> D100b["Entrega 6"]:::vermelho
 
   end
 
