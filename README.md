@@ -31,3 +31,21 @@ classDef vermelho fill:#E64C3C, stroke:#000, stroke-width:1px;
 
 
 ```
+
+
+useCaseDiagram
+    actor Usuário as "Usuário"
+    actor Sistema as "Sistema"
+    
+    Usuário --> (Gerenciar Perfil)
+    Usuário --> (Cadastrar Hortaliça)
+    Usuário --> (Monitorar Cultivo)
+    Usuário --> (Aplicar Fertilizantes)
+    Usuário --> (Ajustar Nível Água)
+    
+    Sistema --> (Calcular Tempo Cultivo)
+    Sistema --> (Validar Dados)
+    Sistema --> (Gerar Estatísticas)
+    
+    (Gerenciar Perfil) include (Upload Foto Perfil)
+    (Monitorar Cultivo) extend (Receber Alertas)
